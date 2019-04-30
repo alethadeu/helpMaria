@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CBF78D27EFCDC37386AFBBD /* Pods_helpMariaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21139CD400A36D3B02FBA9AF /* Pods_helpMariaTests.framework */; };
+		C35DEE7A7DA11CE5534ABA36 /* Pods_helpMaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B012DD75F23F9F901A7854B9 /* Pods_helpMaria.framework */; };
 		EFF38FD72278902D00E8883C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF38FD62278902D00E8883C /* AppDelegate.swift */; };
 		EFF38FD92278902D00E8883C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF38FD82278902D00E8883C /* ViewController.swift */; };
 		EFF38FDC2278902D00E8883C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF38FDA2278902D00E8883C /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		EFF38FE12278902F00E8883C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF38FDF2278902F00E8883C /* LaunchScreen.storyboard */; };
 		EFF38FEC2278902F00E8883C /* helpMariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF38FEB2278902F00E8883C /* helpMariaTests.swift */; };
 		EFF38FF72278902F00E8883C /* helpMariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF38FF62278902F00E8883C /* helpMariaUITests.swift */; };
+		F201AECF93D3CB48C2C90C1E /* Pods_helpMariaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA77B7EE9A2020E0453EB12C /* Pods_helpMariaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21139CD400A36D3B02FBA9AF /* Pods_helpMariaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helpMariaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2761EAD04389E534AF7C8FEC /* Pods-helpMariaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMariaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-helpMariaUITests/Pods-helpMariaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		277017FA9DC6D6E21FABC12B /* Pods-helpMariaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMariaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helpMariaUITests/Pods-helpMariaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		284E3E7D4276D13302681A18 /* Pods-helpMaria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMaria.release.xcconfig"; path = "Pods/Target Support Files/Pods-helpMaria/Pods-helpMaria.release.xcconfig"; sourceTree = "<group>"; };
+		2AE8266335F670B7C407FEA7 /* Pods-helpMariaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMariaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-helpMariaTests/Pods-helpMariaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CAAF7F5521F34D9722B6EDE /* Pods-helpMaria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMaria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helpMaria/Pods-helpMaria.debug.xcconfig"; sourceTree = "<group>"; };
+		AA77B7EE9A2020E0453EB12C /* Pods_helpMariaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helpMariaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B012DD75F23F9F901A7854B9 /* Pods_helpMaria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helpMaria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F7084DD1A715A7717E3107 /* Pods-helpMariaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMariaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helpMariaTests/Pods-helpMariaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFF38FD32278902D00E8883C /* helpMaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpMaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF38FD62278902D00E8883C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF38FD82278902D00E8883C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35DEE7A7DA11CE5534ABA36 /* Pods_helpMaria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBF78D27EFCDC37386AFBBD /* Pods_helpMariaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F201AECF93D3CB48C2C90C1E /* Pods_helpMariaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0476A33129AAEDC15A1F2F9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B012DD75F23F9F901A7854B9 /* Pods_helpMaria.framework */,
+				21139CD400A36D3B02FBA9AF /* Pods_helpMariaTests.framework */,
+				AA77B7EE9A2020E0453EB12C /* Pods_helpMariaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B215E23711DCD466842CD0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CAAF7F5521F34D9722B6EDE /* Pods-helpMaria.debug.xcconfig */,
+				284E3E7D4276D13302681A18 /* Pods-helpMaria.release.xcconfig */,
+				B4F7084DD1A715A7717E3107 /* Pods-helpMariaTests.debug.xcconfig */,
+				2AE8266335F670B7C407FEA7 /* Pods-helpMariaTests.release.xcconfig */,
+				277017FA9DC6D6E21FABC12B /* Pods-helpMariaUITests.debug.xcconfig */,
+				2761EAD04389E534AF7C8FEC /* Pods-helpMariaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EFF38FCA2278902D00E8883C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EFF38FEA2278902F00E8883C /* helpMariaTests */,
 				EFF38FF52278902F00E8883C /* helpMariaUITests */,
 				EFF38FD42278902D00E8883C /* Products */,
+				5B215E23711DCD466842CD0F /* Pods */,
+				0476A33129AAEDC15A1F2F9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFF38FFB2278902F00E8883C /* Build configuration list for PBXNativeTarget "helpMaria" */;
 			buildPhases = (
+				40780E892B2AAC5C780D918A /* [CP] Check Pods Manifest.lock */,
 				EFF38FCF2278902D00E8883C /* Sources */,
 				EFF38FD02278902D00E8883C /* Frameworks */,
 				EFF38FD12278902D00E8883C /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFF38FFE2278902F00E8883C /* Build configuration list for PBXNativeTarget "helpMariaTests" */;
 			buildPhases = (
+				ACC974B664348180E18B7400 /* [CP] Check Pods Manifest.lock */,
 				EFF38FE32278902F00E8883C /* Sources */,
 				EFF38FE42278902F00E8883C /* Frameworks */,
 				EFF38FE52278902F00E8883C /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFF390012278902F00E8883C /* Build configuration list for PBXNativeTarget "helpMariaUITests" */;
 			buildPhases = (
+				2ECB11278C09F5A3ACA401E9 /* [CP] Check Pods Manifest.lock */,
 				EFF38FEE2278902F00E8883C /* Sources */,
 				EFF38FEF2278902F00E8883C /* Frameworks */,
 				EFF38FF02278902F00E8883C /* Resources */,
@@ -250,6 +293,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ECB11278C09F5A3ACA401E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helpMariaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40780E892B2AAC5C780D918A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helpMaria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC974B664348180E18B7400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-helpMariaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EFF38FCF2278902D00E8883C /* Sources */ = {
@@ -430,10 +542,11 @@
 		};
 		EFF38FFC2278902F00E8883C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAAF7F5521F34D9722B6EDE /* Pods-helpMaria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RLM7JB39FN;
+				DEVELOPMENT_TEAM = 83GYSW2QVF;
 				INFOPLIST_FILE = helpMaria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +561,11 @@
 		};
 		EFF38FFD2278902F00E8883C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284E3E7D4276D13302681A18 /* Pods-helpMaria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RLM7JB39FN;
+				DEVELOPMENT_TEAM = 83GYSW2QVF;
 				INFOPLIST_FILE = helpMaria/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +580,7 @@
 		};
 		EFF38FFF2278902F00E8883C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4F7084DD1A715A7717E3107 /* Pods-helpMariaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +602,7 @@
 		};
 		EFF390002278902F00E8883C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE8266335F670B7C407FEA7 /* Pods-helpMariaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +624,7 @@
 		};
 		EFF390022278902F00E8883C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277017FA9DC6D6E21FABC12B /* Pods-helpMariaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +645,7 @@
 		};
 		EFF390032278902F00E8883C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2761EAD04389E534AF7C8FEC /* Pods-helpMariaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
