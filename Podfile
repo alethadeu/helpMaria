@@ -6,6 +6,7 @@ target 'helpMaria' do
   use_frameworks!
 
   # Pods for helpMaria
+  pod 'RevealingSplashView'
 
   target 'helpMariaTests' do
     inherit! :search_paths

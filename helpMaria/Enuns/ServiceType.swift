@@ -9,5 +9,5 @@
 import Foundation
 
 enum ServiceType: Int {
-    case hydraulic, eletric, shower, paint, others
+    case hydraulic, eletric, shower, paint, furniture, television, others
 }
