@@ -8,26 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6CBF78D27EFCDC37386AFBBD /* Pods_helpMariaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21139CD400A36D3B02FBA9AF /* Pods_helpMariaTests.framework */; };
-		7D6959A6227E1BA0002F07B1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D695996227E1B9F002F07B1 /* Roboto-Bold.ttf */; };
-		7D6959A7227E1BA0002F07B1 /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D695997227E1B9F002F07B1 /* Roboto-BoldCondensed.ttf */; };
-		7D6959A8227E1BA0002F07B1 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D695998227E1B9F002F07B1 /* Roboto-LightItalic.ttf */; };
-		7D6959A9227E1BA0002F07B1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D695999227E1B9F002F07B1 /* Roboto-Italic.ttf */; };
-		7D6959AA227E1BA0002F07B1 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D69599A227E1B9F002F07B1 /* Roboto-Light.ttf */; };
-		7D6959AB227E1BA0002F07B1 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D69599B227E1B9F002F07B1 /* Roboto-BlackItalic.ttf */; };
-		7D6959AC227E1BA0002F07B1 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D69599C227E1B9F002F07B1 /* Roboto-BoldItalic.ttf */; };
-		7D6959AD227E1BA0002F07B1 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D69599D227E1BA0002F07B1 /* Roboto-Black.ttf */; };
-		7D6959AE227E1BA0002F07B1 /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D69599E227E1BA0002F07B1 /* Roboto-BoldCondensedItalic.ttf */; };
-		7D6959AF227E1BA0002F07B1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D69599F227E1BA0002F07B1 /* Roboto-Medium.ttf */; };
-		7D6959B0227E1BA0002F07B1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D6959A0227E1BA0002F07B1 /* Roboto-Regular.ttf */; };
-		7D6959B1227E1BA0002F07B1 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D6959A1227E1BA0002F07B1 /* Roboto-Thin.ttf */; };
-		7D6959B2227E1BA0002F07B1 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D6959A2227E1BA0002F07B1 /* Roboto-ThinItalic.ttf */; };
-		7D6959B3227E1BA0002F07B1 /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D6959A3227E1BA0002F07B1 /* Roboto-Condensed.ttf */; };
-		7D6959B4227E1BA0002F07B1 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D6959A4227E1BA0002F07B1 /* Roboto-MediumItalic.ttf */; };
-		7D6959B5227E1BA0002F07B1 /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D6959A5227E1BA0002F07B1 /* Roboto-CondensedItalic.ttf */; };
 		7D6959B7227E7597002F07B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6959B6227E7597002F07B1 /* Constants.swift */; };
 		7D96E58E227F6CCF00D9A28A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96E58D227F6CCF00D9A28A /* SplashViewController.swift */; };
 		7DEEBD29227EA33600D05760 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEBD28227EA33600D05760 /* BannerCollectionViewCell.swift */; };
 		C35DEE7A7DA11CE5534ABA36 /* Pods_helpMaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B012DD75F23F9F901A7854B9 /* Pods_helpMaria.framework */; };
+		EFA059EA2287657100F54567 /* WorkerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA059E92287657100F54567 /* WorkerCell.xib */; };
+		EFA059EC2287678A00F54567 /* ListMariaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA059EB2287678A00F54567 /* ListMariaViewController.swift */; };
+		EFA059EF2287792D00F54567 /* SelectServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA059EE2287792D00F54567 /* SelectServiceCollectionViewCell.swift */; };
+		EFC3752E2287C8EA00016357 /* ServiceFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC3752D2287C8EA00016357 /* ServiceFilterCollectionViewCell.swift */; };
+		EFC375302287CCC000016357 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC3752F2287CCC000016357 /* FilterViewController.swift */; };
+		EFC375322287CDFD00016357 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC375312287CDFD00016357 /* Delegates.swift */; };
+		EFC3753422889D5600016357 /* ServiceDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC3753322889D5600016357 /* ServiceDetailCollectionViewCell.swift */; };
+		EFC375362288A6BA00016357 /* DetailMariaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC375352288A6BA00016357 /* DetailMariaViewController.swift */; };
 		EFF38FD72278902D00E8883C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF38FD62278902D00E8883C /* AppDelegate.swift */; };
 		EFF38FD92278902D00E8883C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF38FD82278902D00E8883C /* ViewController.swift */; };
 		EFF38FDC2278902D00E8883C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF38FDA2278902D00E8883C /* Home.storyboard */; };
@@ -71,28 +63,32 @@
 		284E3E7D4276D13302681A18 /* Pods-helpMaria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMaria.release.xcconfig"; path = "Pods/Target Support Files/Pods-helpMaria/Pods-helpMaria.release.xcconfig"; sourceTree = "<group>"; };
 		2AE8266335F670B7C407FEA7 /* Pods-helpMariaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMariaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-helpMariaTests/Pods-helpMariaTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CAAF7F5521F34D9722B6EDE /* Pods-helpMaria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMaria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helpMaria/Pods-helpMaria.debug.xcconfig"; sourceTree = "<group>"; };
-		7D695996227E1B9F002F07B1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../../Downloads/roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		7D695997227E1B9F002F07B1 /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldCondensed.ttf"; path = "../../../../../Downloads/roboto/Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
-		7D695998227E1B9F002F07B1 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		7D695999227E1B9F002F07B1 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../../../Downloads/roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		7D69599A227E1B9F002F07B1 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		7D69599B227E1B9F002F07B1 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		7D69599C227E1B9F002F07B1 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		7D69599D227E1BA0002F07B1 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../../../Downloads/roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		7D69599E227E1BA0002F07B1 /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldCondensedItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
-		7D69599F227E1BA0002F07B1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../../Downloads/roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		7D6959A0227E1BA0002F07B1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		7D6959A1227E1BA0002F07B1 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../../Downloads/roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		7D6959A2227E1BA0002F07B1 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
-		7D6959A3227E1BA0002F07B1 /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Condensed.ttf"; path = "../../../../../Downloads/roboto/Roboto-Condensed.ttf"; sourceTree = "<group>"; };
-		7D6959A4227E1BA0002F07B1 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		7D6959A5227E1BA0002F07B1 /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-CondensedItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
 		7D6959B6227E7597002F07B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7D96E58D227F6CCF00D9A28A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		7DEEBD28227EA33600D05760 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		AA77B7EE9A2020E0453EB12C /* Pods_helpMariaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helpMariaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B012DD75F23F9F901A7854B9 /* Pods_helpMaria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helpMaria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F7084DD1A715A7717E3107 /* Pods-helpMariaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helpMariaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helpMariaTests/Pods-helpMariaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF618E2F2280AF5F00F6CF0C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EF618E302280AF5F00F6CF0C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		EF618E312280AF6000F6CF0C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		EF618E322280AF6000F6CF0C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EF618E332280AF6000F6CF0C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		EF618E342280AF6000F6CF0C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EF618E352280AF6100F6CF0C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		EF618E362280AF6100F6CF0C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		EF618E372280AF6100F6CF0C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		EF618E382280AF6200F6CF0C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EF618E392280AF6200F6CF0C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EF618E3A2280AF6200F6CF0C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EFA059E92287657100F54567 /* WorkerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkerCell.xib; sourceTree = "<group>"; };
+		EFA059EB2287678A00F54567 /* ListMariaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMariaViewController.swift; sourceTree = "<group>"; };
+		EFA059EE2287792D00F54567 /* SelectServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFC3752D2287C8EA00016357 /* ServiceFilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFC3752F2287CCC000016357 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		EFC375312287CDFD00016357 /* Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		EFC3753322889D5600016357 /* ServiceDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFC375352288A6BA00016357 /* DetailMariaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMariaViewController.swift; sourceTree = "<group>"; };
 		EFF38FD32278902D00E8883C /* helpMaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helpMaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF38FD62278902D00E8883C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF38FD82278902D00E8883C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,24 +167,37 @@
 		7D695995227E1B56002F07B1 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				7D69599D227E1BA0002F07B1 /* Roboto-Black.ttf */,
-				7D69599B227E1B9F002F07B1 /* Roboto-BlackItalic.ttf */,
-				7D695996227E1B9F002F07B1 /* Roboto-Bold.ttf */,
-				7D695997227E1B9F002F07B1 /* Roboto-BoldCondensed.ttf */,
-				7D69599E227E1BA0002F07B1 /* Roboto-BoldCondensedItalic.ttf */,
-				7D69599C227E1B9F002F07B1 /* Roboto-BoldItalic.ttf */,
-				7D6959A3227E1BA0002F07B1 /* Roboto-Condensed.ttf */,
-				7D6959A5227E1BA0002F07B1 /* Roboto-CondensedItalic.ttf */,
-				7D695999227E1B9F002F07B1 /* Roboto-Italic.ttf */,
-				7D69599A227E1B9F002F07B1 /* Roboto-Light.ttf */,
-				7D695998227E1B9F002F07B1 /* Roboto-LightItalic.ttf */,
-				7D69599F227E1BA0002F07B1 /* Roboto-Medium.ttf */,
-				7D6959A4227E1BA0002F07B1 /* Roboto-MediumItalic.ttf */,
-				7D6959A0227E1BA0002F07B1 /* Roboto-Regular.ttf */,
-				7D6959A1227E1BA0002F07B1 /* Roboto-Thin.ttf */,
-				7D6959A2227E1BA0002F07B1 /* Roboto-ThinItalic.ttf */,
+				EF618E362280AF6100F6CF0C /* Roboto-Black.ttf */,
+				EF618E392280AF6200F6CF0C /* Roboto-BlackItalic.ttf */,
+				EF618E302280AF5F00F6CF0C /* Roboto-Bold.ttf */,
+				EF618E382280AF6200F6CF0C /* Roboto-BoldItalic.ttf */,
+				EF618E332280AF6000F6CF0C /* Roboto-Italic.ttf */,
+				EF618E352280AF6100F6CF0C /* Roboto-Light.ttf */,
+				EF618E372280AF6100F6CF0C /* Roboto-LightItalic.ttf */,
+				EF618E2F2280AF5F00F6CF0C /* Roboto-Medium.ttf */,
+				EF618E342280AF6000F6CF0C /* Roboto-MediumItalic.ttf */,
+				EF618E3A2280AF6200F6CF0C /* Roboto-Regular.ttf */,
+				EF618E312280AF6000F6CF0C /* Roboto-Thin.ttf */,
+				EF618E322280AF6000F6CF0C /* Roboto-ThinItalic.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		EFA059E82287654C00F54567 /* WorkersCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFF390162278F03000E8883C /* WorkerTableViewCell.swift */,
+				EFA059E92287657100F54567 /* WorkerCell.xib */,
+			);
+			path = WorkersCell;
+			sourceTree = "<group>";
+		};
+		EFA059F022879CCB00F54567 /* SelectServiceCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFA059EE2287792D00F54567 /* SelectServiceCollectionViewCell.swift */,
+			);
+			path = SelectServiceCollectionCell;
 			sourceTree = "<group>";
 		};
 		EFF38FCA2278902D00E8883C = {
@@ -255,6 +264,9 @@
 			children = (
 				EFF3900E22789A9B00E8883C /* HomeViewController.swift */,
 				7D96E58D227F6CCF00D9A28A /* SplashViewController.swift */,
+				EFA059EB2287678A00F54567 /* ListMariaViewController.swift */,
+				EFC3752F2287CCC000016357 /* FilterViewController.swift */,
+				EFC375352288A6BA00016357 /* DetailMariaViewController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -290,8 +302,11 @@
 		EFF390142278EF8E00E8883C /* CollectionCells */ = {
 			isa = PBXGroup;
 			children = (
+				EFA059F022879CCB00F54567 /* SelectServiceCollectionCell */,
 				EFF390182278F11D00E8883C /* ServiceCollectionViewCell.swift */,
 				7DEEBD28227EA33600D05760 /* BannerCollectionViewCell.swift */,
+				EFC3752D2287C8EA00016357 /* ServiceFilterCollectionViewCell.swift */,
+				EFC3753322889D5600016357 /* ServiceDetailCollectionViewCell.swift */,
 			);
 			path = CollectionCells;
 			sourceTree = "<group>";
@@ -299,7 +314,7 @@
 		EFF390152278EF9900E8883C /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				EFF390162278F03000E8883C /* WorkerTableViewCell.swift */,
+				EFA059E82287654C00F54567 /* WorkersCell */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -309,6 +324,7 @@
 			children = (
 				EFF3901B227905E200E8883C /* Extension.swift */,
 				7D6959B6227E7597002F07B1 /* Constants.swift */,
+				EFC375312287CDFD00016357 /* Delegates.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -421,24 +437,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D6959B3227E1BA0002F07B1 /* Roboto-Condensed.ttf in Resources */,
-				7D6959AF227E1BA0002F07B1 /* Roboto-Medium.ttf in Resources */,
 				EFF38FE12278902F00E8883C /* LaunchScreen.storyboard in Resources */,
+				EFA059EA2287657100F54567 /* WorkerCell.xib in Resources */,
 				EFF38FDE2278902F00E8883C /* Assets.xcassets in Resources */,
-				7D6959AE227E1BA0002F07B1 /* Roboto-BoldCondensedItalic.ttf in Resources */,
-				7D6959A8227E1BA0002F07B1 /* Roboto-LightItalic.ttf in Resources */,
-				7D6959A7227E1BA0002F07B1 /* Roboto-BoldCondensed.ttf in Resources */,
-				7D6959AB227E1BA0002F07B1 /* Roboto-BlackItalic.ttf in Resources */,
-				7D6959AD227E1BA0002F07B1 /* Roboto-Black.ttf in Resources */,
-				7D6959B1227E1BA0002F07B1 /* Roboto-Thin.ttf in Resources */,
-				7D6959B0227E1BA0002F07B1 /* Roboto-Regular.ttf in Resources */,
-				7D6959A9227E1BA0002F07B1 /* Roboto-Italic.ttf in Resources */,
-				7D6959A6227E1BA0002F07B1 /* Roboto-Bold.ttf in Resources */,
-				7D6959B2227E1BA0002F07B1 /* Roboto-ThinItalic.ttf in Resources */,
-				7D6959AA227E1BA0002F07B1 /* Roboto-Light.ttf in Resources */,
-				7D6959AC227E1BA0002F07B1 /* Roboto-BoldItalic.ttf in Resources */,
-				7D6959B4227E1BA0002F07B1 /* Roboto-MediumItalic.ttf in Resources */,
-				7D6959B5227E1BA0002F07B1 /* Roboto-CondensedItalic.ttf in Resources */,
 				EFF38FDC2278902D00E8883C /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +491,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-helpMaria/Pods-helpMaria-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-helpMaria/Pods-helpMaria-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -501,7 +502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-helpMaria/Pods-helpMaria-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-helpMaria/Pods-helpMaria-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		40780E892B2AAC5C780D918A /* [CP] Check Pods Manifest.lock */ = {
@@ -555,20 +556,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC375362288A6BA00016357 /* DetailMariaViewController.swift in Sources */,
+				EFA059EC2287678A00F54567 /* ListMariaViewController.swift in Sources */,
 				EFF390192278F11D00E8883C /* ServiceCollectionViewCell.swift in Sources */,
 				EFF38FD92278902D00E8883C /* ViewController.swift in Sources */,
 				EFF39007227895D200E8883C /* Service.swift in Sources */,
 				EFF38FD72278902D00E8883C /* AppDelegate.swift in Sources */,
 				EFF3901C227905E200E8883C /* Extension.swift in Sources */,
 				7D96E58E227F6CCF00D9A28A /* SplashViewController.swift in Sources */,
+				EFC375322287CDFD00016357 /* Delegates.swift in Sources */,
 				7DEEBD29227EA33600D05760 /* BannerCollectionViewCell.swift in Sources */,
+				EFA059EF2287792D00F54567 /* SelectServiceCollectionViewCell.swift in Sources */,
 				EFF390172278F03000E8883C /* WorkerTableViewCell.swift in Sources */,
 				EFF390132278EE4500E8883C /* Certificate.swift in Sources */,
 				EFF3900C2278990F00E8883C /* User.swift in Sources */,
+				EFC375302287CCC000016357 /* FilterViewController.swift in Sources */,
 				EFF3900A2278963000E8883C /* ServiceType.swift in Sources */,
 				EFF3900F22789A9B00E8883C /* HomeViewController.swift in Sources */,
 				EFF390112278ED8300E8883C /* Worker.swift in Sources */,
+				EFC3752E2287C8EA00016357 /* ServiceFilterCollectionViewCell.swift in Sources */,
 				7D6959B7227E7597002F07B1 /* Constants.swift in Sources */,
+				EFC3753422889D5600016357 /* ServiceDetailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

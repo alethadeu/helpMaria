@@ -8,7 +8,11 @@
 
 import Foundation
 
-struct Worker {
+struct Worker: Equatable {
+    static func == (lhs: Worker, rhs: Worker) -> Bool {
+        return lhs.name == rhs.name
+    }
+    
     var name         : String?
     var rate         : Double?
     var premium      : Bool?

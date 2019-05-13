@@ -54,6 +54,9 @@ class HomeViewController: UIViewController {
         didSet {
             workerTableView.delegate = self
             workerTableView.dataSource = self
+            
+            let cell = UINib.init(nibName: "WorkerCell", bundle: nil)
+            workerTableView.register(cell, forCellReuseIdentifier: "workerCell")
         }
     }
     
@@ -94,6 +97,10 @@ class HomeViewController: UIViewController {
     }
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+        navigationController?.defaultStyle()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -107,9 +114,37 @@ class HomeViewController: UIViewController {
             self.workerTableView.reloadData()
             DispatchQueue.main.async {
                 self.workerTableViewHeightConstraint.constant = self.workerTableView.contentSize.height
-            }        }
+            }
+            
+        }
         
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueToList" {
+            if let listVC = segue.destination as? ListMariaViewController, let service = sender as? Service, let serviceType = service.serviceType {
+                let filteredMarias = marias.filter{ $0.services.contains(serviceType)}
+                listVC.selectWorkers = filteredMarias
+                listVC.selectServices.append(service)
+            }
+        }
+        
+        if segue.identifier == "segueToDetail" {
+            if let detailVC = segue.destination as? DetailMariaViewController, let maria = sender as? Worker {
+                detailVC.worker = maria
+            }
+        }
+    }
+    
+    @IBAction func configActionButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "segueToConfig", sender: nil)
+    }
+    
     
 }
 
@@ -143,6 +178,14 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
     }
     
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView.tag == 0 {
+            let service = services[indexPath.row]
+            self.performSegue(withIdentifier: "segueToList", sender: service)
+        }
+    }
+    
+    
 }
 
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
@@ -162,6 +205,12 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 225
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let worker = marias[indexPath.row]
+        
+        self.performSegue(withIdentifier: "segueToDetail", sender: worker)
     }
     
 }
@@ -199,4 +248,6 @@ extension HomeViewController: UIScrollViewDelegate {
         self.lastContentOffset = scrollView.contentOffset.y
     }
 }
+
+
 

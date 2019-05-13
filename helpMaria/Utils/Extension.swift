@@ -70,6 +70,10 @@ extension UIColor {
     struct orange {
         static let sunset = UIColor(red:0.97, green:0.69, blue:0.58, alpha:1.0)
     }
+    
+    struct pink {
+        static let sunset = UIColor(red:0.87, green:0.41, blue:0.47, alpha:1.0)
+    }
 }
 extension UIImageView {
     func changePngColorTo(color: UIColor){
@@ -85,5 +89,29 @@ extension UIImageView {
         let shape = CAShapeLayer()
         shape.path = maskPath.cgPath
         layer.mask = shape
+    }
 }
+extension UINavigationController {
+    func defaultStyle() {
+        self.navigationBar.barTintColor = .white
+        self.navigationBar.tintColor = UIColor.orange.sunset
+        self.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.orange.sunset]
+        self.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.orange.sunset]
+    }
+}
+
+extension Array where Element:Equatable {
+    func removeDuplicates() -> [Element] {
+        var result = [Element]()
+        
+        for value in self {
+            if result.contains(value) == false {
+                result.append(value)
+            }
+        }
+        
+        return result
+    }
 }
