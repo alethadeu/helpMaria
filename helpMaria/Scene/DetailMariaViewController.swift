@@ -20,11 +20,20 @@ class DetailMariaViewController: UIViewController {
             collectionView.dataSource = self
         }
     }
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+        navigationController?.defaultStyle()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         config()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
     func config() {
@@ -45,7 +54,7 @@ class DetailMariaViewController: UIViewController {
     }
     
     @IBAction func closeAction(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func contractAction(_ sender: Any) {
@@ -57,6 +66,10 @@ class DetailMariaViewController: UIViewController {
             }
             alert.addAction(action)
         }
+        let cancel = UIAlertAction(title: "cancelar", style: .cancel) { (UIAlertAction) in
+            alert.dismiss(animated: true, completion: nil)
+        }
+        alert.addAction(cancel)
         self.present(alert, animated: true, completion: nil)
     }
 }

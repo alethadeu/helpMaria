@@ -51,6 +51,12 @@ class ListMariaViewController: UIViewController {
                 filterVC.delegate = self
             }
         }
+        
+        if segue.identifier == "segueToDetail" {
+            if let detailVC = segue.destination as? DetailMariaViewController, let maria = sender as? Worker {
+                detailVC.worker = maria
+            }
+        }
     }
 
 }
@@ -74,12 +80,22 @@ extension ListMariaViewController: UITableViewDataSource, UITableViewDelegate {
         
         cell.cardView.addBorder(color: UIColor.orange.sunset)
         cell.cardView.addShadow()
+        cell.selectionStyle = .none
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 225
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        var worker = marias[indexPath.row]
+        if selectWorkers.count > 0 {
+            worker = selectWorkers[indexPath.row]
+        }
+        performSegue(withIdentifier: "segueToDetail", sender:worker )
+
     }
     
 }

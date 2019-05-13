@@ -190,7 +190,7 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
 
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return marias.count
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -200,6 +200,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         
         let worker = marias[indexPath.row]
         cell.configCell(worker: worker)
+        cell.selectionStyle = .none
         return cell
     }
     

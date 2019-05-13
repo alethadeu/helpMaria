@@ -48,7 +48,7 @@ class ServiceDetailCollectionViewCell: UICollectionViewCell {
         
         descriptionLabel.text = service.description
         if let price = service.price, price > 0 {
-            servicePriceLabel.text = "R$ \(price),00"
+            servicePriceLabel.text = String(format: "R$ %.2f", price).replacingOccurrences(of: ".", with: ",")
         } else {
             servicePriceLabel.text = "negociável"
         }
