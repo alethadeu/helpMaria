@@ -62,7 +62,7 @@ class DetailMariaViewController: UIViewController {
         
         for service in workerServices  {
             let action = UIAlertAction(title: service.name, style: .default) { (UIAlertAction) in
-                print(service.name!)
+                self.performSegue(withIdentifier: "segueToCheckout", sender: nil)
             }
             alert.addAction(action)
         }

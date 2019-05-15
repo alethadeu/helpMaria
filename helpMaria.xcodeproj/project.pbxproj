@@ -12,6 +12,7 @@
 		7D96E58E227F6CCF00D9A28A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D96E58D227F6CCF00D9A28A /* SplashViewController.swift */; };
 		7DEEBD29227EA33600D05760 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEEBD28227EA33600D05760 /* BannerCollectionViewCell.swift */; };
 		C35DEE7A7DA11CE5534ABA36 /* Pods_helpMaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B012DD75F23F9F901A7854B9 /* Pods_helpMaria.framework */; };
+		EF649953228CBFB5005F702A /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF649952228CBFB5005F702A /* CheckoutViewController.swift */; };
 		EFA059EA2287657100F54567 /* WorkerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA059E92287657100F54567 /* WorkerCell.xib */; };
 		EFA059EC2287678A00F54567 /* ListMariaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA059EB2287678A00F54567 /* ListMariaViewController.swift */; };
 		EFA059EF2287792D00F54567 /* SelectServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA059EE2287792D00F54567 /* SelectServiceCollectionViewCell.swift */; };
@@ -81,6 +82,7 @@
 		EF618E382280AF6200F6CF0C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		EF618E392280AF6200F6CF0C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		EF618E3A2280AF6200F6CF0C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EF649952228CBFB5005F702A /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		EFA059E92287657100F54567 /* WorkerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkerCell.xib; sourceTree = "<group>"; };
 		EFA059EB2287678A00F54567 /* ListMariaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMariaViewController.swift; sourceTree = "<group>"; };
 		EFA059EE2287792D00F54567 /* SelectServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServiceCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				EFA059EB2287678A00F54567 /* ListMariaViewController.swift */,
 				EFC3752F2287CCC000016357 /* FilterViewController.swift */,
 				EFC375352288A6BA00016357 /* DetailMariaViewController.swift */,
+				EF649952228CBFB5005F702A /* CheckoutViewController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 				EFF3900C2278990F00E8883C /* User.swift in Sources */,
 				EFC375302287CCC000016357 /* FilterViewController.swift in Sources */,
 				EFF3900A2278963000E8883C /* ServiceType.swift in Sources */,
+				EF649953228CBFB5005F702A /* CheckoutViewController.swift in Sources */,
 				EFF3900F22789A9B00E8883C /* HomeViewController.swift in Sources */,
 				EFF390112278ED8300E8883C /* Worker.swift in Sources */,
 				EFC3752E2287C8EA00016357 /* ServiceFilterCollectionViewCell.swift in Sources */,

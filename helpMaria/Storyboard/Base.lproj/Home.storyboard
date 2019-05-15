@@ -667,11 +667,38 @@
                         <outlet property="collectionView" destination="gS8-yN-uXW" id="p4o-HB-Inf"/>
                         <outlet property="ratingLabel" destination="WTf-HJ-soa" id="LeB-TX-dHV"/>
                         <outlet property="workerNameLabel" destination="yUl-fa-ubT" id="Zex-UC-UAd"/>
+                        <segue destination="qye-Sa-xQp" kind="show" identifier="segueToCheckout" id="wPW-vl-xz2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGq-eS-GsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1320" y="2875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7X0-HU-jut">
+            <objects>
+                <viewController id="qye-Sa-xQp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="woE-GW-V7R">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mMw-5x-yvH">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dZV-eF-5nV" firstAttribute="trailing" secondItem="mMw-5x-yvH" secondAttribute="trailing" id="7cC-8x-8Dh"/>
+                            <constraint firstItem="mMw-5x-yvH" firstAttribute="top" secondItem="dZV-eF-5nV" secondAttribute="top" id="Ov3-NH-fQ2"/>
+                            <constraint firstItem="mMw-5x-yvH" firstAttribute="leading" secondItem="dZV-eF-5nV" secondAttribute="leading" id="b24-dp-OI8"/>
+                            <constraint firstItem="dZV-eF-5nV" firstAttribute="bottom" secondItem="mMw-5x-yvH" secondAttribute="bottom" id="oNY-j2-UWt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dZV-eF-5nV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ni1-ce-MWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2426" y="2874"/>
         </scene>
         <!--Encontre sua Maria-->
         <scene sceneID="oyF-JM-UTW">
@@ -820,7 +847,7 @@
                         <outlet property="selectedServiceCollectionView" destination="JcW-sh-BSy" id="Ajb-bC-E80"/>
                         <outlet property="workerTableView" destination="uiT-gV-VlM" id="OBq-aL-RYy"/>
                         <outlet property="workerTableVikewConstraint" destination="pe9-OQ-nKe" id="pfI-75-3Ya"/>
-                        <segue destination="8J4-DJ-0RK" kind="presentation" identifier="segueToDetail" id="gsq-78-5pZ"/>
+                        <segue destination="8J4-DJ-0RK" kind="show" identifier="segueToDetail" id="gsq-78-5pZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3F-P6-kE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
